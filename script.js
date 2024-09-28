@@ -38,7 +38,7 @@ finally{
 }
 function showLoading(){
   const html=` <div id="img">
-        <img src="ai.png" alt="">
+       
     </div>
     <div class="text">
     </div>
@@ -58,7 +58,7 @@ btn.addEventListener("click",()=>{
     }
     if(!userMessage)return;
   const html=` <div id="img">
-        <img src="user.png" alt="">
+        <img src="dot.png" alt="">
     </div>
     <div class="text">
     </div>`
